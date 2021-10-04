@@ -1,7 +1,6 @@
-import React, { useState, useEffect }  from 'react';
+import React, { useState }  from 'react';
 import { Card, Row, Col, Select, Typography, Avatar } from 'antd';
 import moment from 'moment';
-import newImage from '../images/th.jpg';
 
 import { useGetCryptoNewsQuery } from '../services/cryptoNewsApi';
 import { useGetCryptosQuery } from '../services/cryptoApi';
